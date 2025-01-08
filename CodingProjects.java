@@ -104,13 +104,13 @@ public class CodingProjects {
         return result;
     }
 
-    // Method 8: Create full name
+    // create full name
     public static String createFullName(String firstName, String lastName) {
         return firstName + " " + lastName;
 
     }
     
-    // Method 9: Check if sum is greater than 100
+    // add all int and see if greater than 100
     public static boolean isSumGreaterThan100(int[] numbers) {
         int sum = 0;
         for (int num : numbers) {
@@ -119,7 +119,7 @@ public class CodingProjects {
         return sum > 100;
     }
 
-    // Method 10: Calculate average of doubles
+    // Calculate average of doubles
     public static double calculateAverage(double[] numbers) {
         double sum = 0;
         for (double num : numbers) {
@@ -128,16 +128,17 @@ public class CodingProjects {
         return sum / numbers.length;
     }
 
-    // Method 11: Compare averages of two arrays
+    // Compare averages of two arrays
     public static boolean isFirstArrayGreater(double[] stats, double[] stats2) {
         return calculateAverage(stats) > calculateAverage(stats2);
     }
 
-    // Method 12: Decide whether to buy drink
+    // Decide whether to buy drink or not
     public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
         return isHotOutside && moneyInPocket > 10.50;
     }
     
+    // Custom Method
     public static boolean isRich(int age, boolean hasParentPermission) {
     	if (age >= 21) {
     		return true;
